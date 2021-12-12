@@ -71,7 +71,7 @@ class TicketControl {
             this.ultimos4.splice(-1,1); // borra el ultimo elemento del arreglo
         }
 
-        console.log('Ultimos 4: ', this.ultimos4);
+        console.log(this.ultimos4);
 
         this.grabarArchivo();
 
