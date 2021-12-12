@@ -1,8 +1,8 @@
 # Notas:
 
-Este es un pequeño servidor de express listo para ejecutarse y servir la carpeta public en la web.
+Server de express basado en colas utilizando socket.io.
 
-Recuerden que deben de reconstruir los módulos de node con el comando
+Para reconstruir los módulos de node usar el comando
 
 ```
 npm install
