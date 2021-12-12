@@ -36,6 +36,10 @@ class TicketControl {
 
     }
 
+    getUltimoTicket(){
+        return `Ticket ${ this.ultimo }`;
+    }
+
 
     grabarArchivo (){
         let jsonData = {
