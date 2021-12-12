@@ -55,6 +55,10 @@ class TicketControl {
         return `Ticket ${ this.ultimo }`;
     }
 
+    getUltimos4Ticket(){
+        return  this.ultimos4;
+    }
+
     atenderTicket( escritorio ){
 
         // verifico si hay tickets pendientes de atender
